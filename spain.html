@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spain with Ibiza - Trip Circle</title>
+    <meta name="description" content="Spain with Ibiza: 11 Days across Barcelona, Costa Brava, Ibiza, Valencia, and Madrid.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="has-sticky-cta">
+
+    <!-- NAVIGATION -->
+    <nav class="navbar-inner">
+        <div class="nav-container">
+            <a href="index.html" class="logo-text-only" style="text-decoration: none;">Trip Circle</a>
+            <div class="menu-toggle">☰</div>
+            <div class="menu-overlay"></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trips.html" class="active">Trips</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <div class="page-hero" style="background-image: url('images/spain.jpg');">
+        <div class="page-hero-overlay"></div>
+        <h1>Spain with Ibiza</h1>
+        <p style="color: white; position: relative; z-index: 2; font-size: 20px; font-weight: 500; margin-top: 10px; letter-spacing: 0.5px;">&nbsp;</p>
+    </div>
+
+    <!-- QUICK INFO BAR -->
+    <div class="quick-info-bar fade-up-load">
+        <div class="quick-info-item">
+            <span class="label">Duration</span>
+            <span class="value">11 Days</span>
+        </div>
+        <div class="quick-info-item">
+            <span class="label">Group Size</span>
+            <span class="value">15-20 people</span>
+        </div>
+        <div class="quick-info-item">
+            <span class="label">Stay</span>
+            <span class="value">Hotels/Hostels</span>
+        </div>
+        <div class="quick-info-item">
+            <span class="label">Trip Type</span>
+            <span class="value">Group Trip</span>
+        </div>
+    </div>
+
+    <!-- ABOUT THIS TRIP -->
+    <section class="about-trip">
+        <div class="container">
+            <h2>About This Trip</h2>
+            <p>
+                From the biggest parties to ancient buildings, sun-drenched beaches to world-class cuisine — this trip captures the very best of Spain in one electrifying journey. Beginning at the beachside beauty of Barcelona and concluding in the grand capital of Madrid, with a detour to the legendary island of Ibiza and the charming city of Valencia along the way. Get ready to turn up the heat.
+            </p>
+        </div>
+    </section>
+
+    <!-- BRIEF ITINERARY (ACCORDION) -->
+    <section class="section">
+        <div class="container fade-up">
+            <div class="section-title">
+                <h2>Brief Itinerary</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="dates-pricing-wrapper">
+                <!-- Day 1 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="accordion-date"><span style="color: var(--secondary); margin-right: 8px;">Day 1</span> – Arrival in Barcelona</div>
+                        <div class="accordion-btn"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">Fly into Barcelona and check into your hostel — your base for the next three nights. Settle in, freshen up, and meet your travel squad before heading out to explore. Cap the evening with a Welcome Dinner that sets the tone for the ten extraordinary days ahead, followed by entry to one of Barcelona's most popular nightclubs — dancing and partying, Barcelona-style.</div>
+                    </div>
+                </div>
+
+                <!-- Day 2 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="accordion-date"><span style="color: var(--secondary); margin-right: 8px;">Day 2</span> – Bicycle Tour, Sagrada Família & Flamenco Masterclass</div>
+                        <div class="accordion-btn"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">Begin the day with a guided bicycle tour through Barcelona's most iconic avenues and offbeat neighbourhoods. Next, stand before the extraordinary Sagrada Família. Step into the world of Spanish dance with a Flamenco Masterclass. In the evening, head to the Mediterranean shores for sangrias, swimming, and pure beachside bliss at Barcelona's most vibrant beach.</div>
+                    </div>
+                </div>
+
+                <!-- Day 3 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="accordion-date"><span style="color: var(--secondary); margin-right: 8px;">Day 3</span> – Costa Brava</div>
+                        <div class="accordion-btn"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">The day spans the Costa Brava's old town and three distinct beaches. Spend the full day swimming, exploring, and soaking in the wild natural beauty of this storied coastline. Rent kayaks and paddle along the dramatic sea cliffs. Or, skydive over the same spectacular stretch of coastline, with a free-fall view that is simply incomparable.</div>
+                    </div>
+                </div>
+
+                <!-- Day 4 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="accordion-date"><span style="color: var(--secondary); margin-right: 8px;">Day 4</span> – Arrival in Ibiza & Nightlife</div>
+                        <div class="accordion-btn"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">Travel to Ibiza by flight on Day 4. Day parties, world-renowned DJs, beach clubs, and warehouse bars — this island has earned its global reputation as the undisputed capital of good times. After checking into the hostel, head to a nearby beach for the most spectacular sunset on the island — Ibiza sunsets are legendary for good reason. After dinner, step out into the electric island nightlife, or rest and conserve energy knowing there are two more incredible nights ahead.</div>
+                    </div>
+                </div>
+
+                <!-- Day 5 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="accordion-date"><span style="color: var(--secondary); margin-right: 8px;">Day 5</span> – Beach & Boat Party</div>
+                        <div class="accordion-btn"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">The morning begins with a swim session at one of Ibiza's most stunning beaches. Set sail on a sunset boat party with abundant drinks, epic DJ sets, and an unforgettable sunset over the Mediterranean while the party rages around you. Board a Disco Bus with the squad and party through the island's legendary clubs deep into the night.</div>
+                    </div>
+                </div>
+
+                <!-- Day 6 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="accordion-date"><span style="color: var(--secondary); margin-right: 8px;">Day 6</span> – Old Town & Pool Party</div>
+                        <div class="accordion-btn"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">Explore the Ibiza Old Town (Dalt Vila) at your own pace. Put on your swimsuit and dive headfirst into the most iconic pool party in Ibiza — a daytime spectacle of music, energy, and sheer extravagance beneath the Ibizan sun. As the sun sets, head out to a club where world-class DJs take the stage.</div>
+                    </div>
+                </div>
+
+                <!-- Day 7 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="accordion-date"><span style="color: var(--secondary); margin-right: 8px;">Day 7</span> – Arrival in Valencia & Nightlife</div>
+                        <div class="accordion-btn"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">After a long and scenic ferry crossing, we arrive in Valencia. Spend the first day exploring the city independently — wander the old quarter, discover the vast Turia Gardens. Later, experience the buzzing Valencian nightlife scene.</div>
+                    </div>
+                </div>
+
+                <!-- Day 8 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="accordion-date"><span style="color: var(--secondary); margin-right: 8px;">Day 8</span> – Guided Walking Tour & Malvarossa Beach</div>
+                        <div class="accordion-btn"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">Begin the morning with a guided walking tour through Valencia's historic old town. Try traditional Valencian Paella for lunch — its resemblance to familiar flavours will surprise and delight in equal measure. Make the short journey to Malvarossa Beach on the Mediterranean coast. Take a dip in warm sea waters, play beach volleyball, or simply lie back and watch the sky dissolve into fifty shades of orange over the horizon.</div>
+                    </div>
+                </div>
+
+                <!-- Day 9 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="accordion-date"><span style="color: var(--secondary); margin-right: 8px;">Day 9</span> – Arrival in Madrid & Pub Crawl</div>
+                        <div class="accordion-btn"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">A short, comfortable high-speed train journey south delivers the group into Madrid — the biggest city and the capital of Spain. Visit a panoramic vantage point offering stunning views across the entire city — Madrid at sunset is a sight to savour. Sample local tapas before heading out on the pub crawl — hopping through the city centre's most lively bars before ending the night at one of Madrid's most popular clubs.</div>
+                    </div>
+                </div>
+
+                <!-- Day 10 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="accordion-date"><span style="color: var(--secondary); margin-right: 8px;">Day 10</span> – City Walk, San Miguel Market & Santiago Bernabéu</div>
+                        <div class="accordion-btn"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">Begin with a city walking tour accompanied by a Churro tasting experience at the legendary Mercado de San Miguel. Visit the Santiago Bernabéu Stadium — the iconic home of Real Madrid Football Club. Seek out a rooftop bar and raise a glass with the squad as Madrid glitters beneath the night sky.</div>
+                    </div>
+                </div>
+
+                <!-- Day 11 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="accordion-date"><span style="color: var(--secondary); margin-right: 8px;">Day 11</span> – Farewell</div>
+                        <div class="accordion-btn"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">And just like that, it's over. Fly out of Madrid anytime on Day 11.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INCLUSIONS & EXCLUSIONS -->
+    <section class="section bg-light">
+        <div class="container fade-up">
+            <div class="section-title">
+                <h2>What's Included?</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="tabs-container">
+                <div class="tab-header">
+                    <button class="tab-btn active" onclick="openTab(event, 'inclusions')"><i class="fas fa-check-circle" style="color: #2e7d32; margin-right: 8px;"></i> Inclusions</button>
+                    <button class="tab-btn" onclick="openTab(event, 'exclusions')"><i class="fas fa-times-circle" style="color: #d32f2f; margin-right: 8px;"></i> Exclusions</button>
+                </div>
+
+                <!-- Tab: Inclusions -->
+                <div id="inclusions" class="tabcontent active">
+                    <ul class="tab-list inc">
+                        <li><i class="fas fa-check"></i> 3 nights accommodation in Barcelona</li>
+                        <li><i class="fas fa-check"></i> 3 nights accommodation in Ibiza</li>
+                        <li><i class="fas fa-check"></i> 2 nights accommodation in Valencia</li>
+                        <li><i class="fas fa-check"></i> 2 nights accommodation in Madrid</li>
+                        <li><i class="fas fa-check"></i> Daily breakfast</li>
+                        <li><i class="fas fa-check"></i> Welcome dinner in Barcelona</li>
+                        <li><i class="fas fa-check"></i> Entry to nightclub in Barcelona</li>
+                        <li><i class="fas fa-check"></i> Guided bicycle tour in Barcelona</li>
+                        <li><i class="fas fa-check"></i> Flamenco masterclass</li>
+                        <li><i class="fas fa-check"></i> Costa Brava day trip</li>
+                        <li><i class="fas fa-check"></i> Flight from Barcelona to Ibiza</li>
+                        <li><i class="fas fa-check"></i> Sunset boat party in Ibiza</li>
+                        <li><i class="fas fa-check"></i> Pool party in Ibiza</li>
+                        <li><i class="fas fa-check"></i> Ferry from Ibiza to Valencia</li>
+                        <li><i class="fas fa-check"></i> Guided walking tour in Valencia</li>
+                        <li><i class="fas fa-check"></i> Visit to Malvarossa Beach</li>
+                        <li><i class="fas fa-check"></i> High-speed train from Valencia to Madrid</li>
+                        <li><i class="fas fa-check"></i> Pub crawl in Madrid</li>
+                        <li><i class="fas fa-check"></i> Walking tour in Madrid</li>
+                        <li><i class="fas fa-check"></i> Churros tasting experience</li>
+                        <li><i class="fas fa-check"></i> Visit to Santiago Bernabéu Stadium</li>
+                        <li><i class="fas fa-check"></i> Trip captain throughout</li>
+                    </ul>
+                </div>
+
+                <!-- Tab: Exclusions -->
+                <div id="exclusions" class="tabcontent">
+                    <ul class="tab-list exc">
+                        <li><i class="fas fa-times"></i> International flights</li>
+                        <li><i class="fas fa-times"></i> Visa fees</li>
+                        <li><i class="fas fa-times"></i> Travel insurance</li>
+                        <li><i class="fas fa-times"></i> Personal expenses</li>
+                        <li><i class="fas fa-times"></i> Meals not mentioned</li>
+                        <li><i class="fas fa-times"></i> Optional activities</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- IMPORTANT NOTES -->
+    <section class="section">
+        <div class="container fade-up">
+            <div class="section-title">
+                <h2>Important Notes</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <ul class="tab-list exc">
+                        <li><i class="fas fa-info-circle"></i> Hostel stays (shared dorms)</li>
+                        <li><i class="fas fa-info-circle"></i> Carry light luggage (20kg + cabin bag)</li>
+                        <li><i class="fas fa-info-circle"></i> Some optional activities extra cost</li>
+                        <li><i class="fas fa-info-circle"></i> Travel insurance recommended</li>
+                    </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- DATES & PRICES ACCORDION -->
+    <section class="dates-prices">
+        <div class="container">
+            <div class="section-title fade-up">
+                <h2>Dates & Prices</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="dates-pricing-wrapper fade-up">
+
+                <!-- Departure 1 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div>
+                            <div class="accordion-date"><i class="far fa-calendar-alt"></i> 19 Aug – 29 Aug</div>
+                            <div class="accordion-status">Open</div>
+                        </div>
+                        <div class="accordion-btn">Check Price</div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <div class="pricing-table-wrapper">
+                                <table class="pricing-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Book Before</th>
+                                            <th>Price (PP)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>8 Jun</td><td>₹1,40,000</td></tr>
+                                        <tr><td>23 Jun</td><td>₹1,45,000</td></tr>
+                                        <tr><td>8 Jul</td><td>₹1,50,000</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div>GST (5%) and TCS (2%) applicable extra</div>
+</div>
+                            <div style="display: flex; gap: 15px; margin-top: 24px; flex-wrap: wrap;">
+                                <a href="https://wa.me/919480068906?text=Hey%20I%20am%20interested%20in%20Spain%20Ibiza%20trip" class="btn btn-secondary" style="flex: 1; min-width: 200px; justify-content: center;" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+                                <a href="https://forms.gle/ajJf6RtngLu6pWBg6" class="btn btn-primary" style="flex: 1; min-width: 200px; justify-content: center;" target="_blank">Reserve Your Spot</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- GLOBAL CTA -->
+            <div class="text-center fade-up" style="margin-top: 50px;">
+                <h3 style="font-size: 24px; color: var(--primary); margin-bottom: 20px;">Ready to Book? Let's Talk!</h3>
+                <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                    <a href="https://wa.me/919480068906?text=Hey%20I%20am%20interested%20in%20Spain%20Ibiza%20trip" class="btn btn-secondary pulse-anim" style="padding: 14px 30px; font-size: 16px; border-radius: 50px; display: inline-flex; align-items: center; gap: 8px;" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+                    <a href="https://forms.gle/ajJf6RtngLu6pWBg6" class="btn btn-primary" style="padding: 14px 30px; font-size: 16px; border-radius: 50px;" target="_blank">Reserve Your Spot</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="payment-terms-section">
+        <div class="container">
+            <h2>Payment Terms</h2>
+            <div class="payment-box">
+                <!-- PAYMENT_TERMS_DYNAMIC -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="section bg-light">
+        <div class="container fade-up">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="dates-pricing-wrapper">
+
+                
+
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="accordion-date" style="font-size: 17px; font-weight: 600;"><i class="fas fa-plane" style="color: var(--secondary);"></i> What flights should I book?</div>
+                        <div class="accordion-btn" style="border: none; padding: 0;"><i class="fas fa-chevron-down" style="font-size: 18px;"></i></div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">Arrive at Barcelona and depart from Madrid. Our team will guide you on the timings.</div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="accordion-date" style="font-size: 17px; font-weight: 600;"><i class="fas fa-passport" style="color: var(--secondary);"></i> Is visa required?</div>
+                        <div class="accordion-btn" style="border: none; padding: 0;"><i class="fas fa-chevron-down" style="font-size: 18px;"></i></div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">Schengen visa required for Indians.</div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="accordion-date" style="font-size: 17px; font-weight: 600;"><i class="fas fa-users" style="color: var(--secondary);"></i> Who can join this trip?</div>
+                        <div class="accordion-btn" style="border: none; padding: 0;"><i class="fas fa-chevron-down" style="font-size: 18px;"></i></div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">Join solo, with a partner, friends, or family — either way you’ll have a great experience.</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="brand">
+                <div class="logo-text-only">Trip Circle</div>
+                <p>Connecting young explorers, one trip at a time.</p>
+            </div>
+            <div class="links">
+                <p>Follow Us</p>
+                <div class="socials">
+                    <a href="https://www.instagram.com/trip.circle?igsh=MXNuM3I5YWVoNGF1Mg==" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                    <a href="https://whatsapp.com/channel/0029VbBq3bUJkK7CwxouRG3i" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">&copy; 2026 Trip Circle. All rights reserved.</div>
+    </footer>
+
+    <!-- STICKY MOBILE CTA -->
+    <div class="sticky-mobile-cta">
+        <div style="display: flex; gap: 10px;">
+            <a href="https://wa.me/919480068906?text=Hey%20I%20am%20interested%20in%20Spain%20Ibiza%20trip" class="btn btn-secondary pulse-anim" style="flex: 1; padding: 14px; font-size: 15px; justify-content: center; text-align: center;" target="_blank"><i class="fab fa-whatsapp"></i> Chat</a>
+            <a href="https://forms.gle/ajJf6RtngLu6pWBg6" class="btn btn-primary" style="flex: 1; padding: 14px; font-size: 15px; justify-content: center; text-align: center;" target="_blank">Reserve Your Spot</a>
+        </div>
+    </div>
+
+    <!-- JS SCRIPTS -->
+    <script>
+        function applyDynamicWhatsAppLinks() {
+            const baseWhatsAppUrl = "https://wa.me/919480068906";
+            const defaultTripName = (document.querySelector(".page-hero h1, .hero h1, h1")?.textContent || document.title || "Trip")
+                .replace(/\s*-\s*Trip Circle\s*$/i, "")
+                .trim();
+
+            document.querySelectorAll("a[href*=\"wa.me/919480068906\"]").forEach(link => {
+                let tripName = defaultTripName;
+                const tripCard = link.closest(".trip-card, .trip-item, .destination-card, .card");
+                const heading = tripCard ? tripCard.querySelector("h2, h3, h4") : null;
+                if (heading && heading.textContent.trim()) {
+                    tripName = heading.textContent.trim();
+                }
+
+                const message = "Hi Trip Circle, I'm interested in " + tripName + ". Please share details.";
+                link.href = baseWhatsAppUrl + "?text=" + encodeURIComponent(message);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            applyDynamicWhatsAppLinks();
+            const observer = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        obs.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.12 });
+            document.querySelectorAll('.fade-up, .fade-up-load').forEach(el => observer.observe(el));
+        });
+
+        function toggleAccordion(header) {
+            const item = header.parentElement;
+            const body = item.querySelector('.accordion-body');
+
+            item.classList.toggle('active');
+
+            if (item.classList.contains('active')) {
+                body.style.maxHeight = body.scrollHeight + "px";
+                setTimeout(() => {
+                    item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }, 300);
+            } else {
+                body.style.maxHeight = null;
+            }
+        }
+
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+                tabcontent[i].classList.remove("active");
+            }
+            tablinks = document.getElementsByClassName("tab-btn");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+
+            setTimeout(() => {
+                document.getElementById(tabName).classList.add("active");
+            }, 10);
+
+            evt.currentTarget.className += " active";
+        }
+
+        const menu = document.querySelector(".nav-links");
+        const overlay = document.querySelector(".menu-overlay");
+        const menuToggle = document.querySelector(".menu-toggle");
+
+        if (menuToggle && menu && overlay) {
+            menuToggle.onclick = () => {
+                menu.classList.toggle("active");
+                overlay.classList.toggle("active");
+            };
+
+            overlay.onclick = () => {
+                menu.classList.remove("active");
+                overlay.classList.remove("active");
+            };
+
+            document.querySelectorAll(".nav-links a").forEach(link => {
+                link.addEventListener("click", () => {
+                    menu.classList.remove("active");
+                    overlay.classList.remove("active");
+                });
+            });
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
