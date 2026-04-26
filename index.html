@@ -381,9 +381,11 @@
             });
         }
     </script>
-    <form name="trip-updates" netlify hidden>
+    <form name="trip-updates" method="POST" data-netlify="true" hidden>
+  <input type="hidden" name="form-name" value="trip-updates">
   <input type="text" name="name">
   <input type="email" name="email">
+  <input type="tel" name="whatsapp">
 </form>
 </body>
 </html>
